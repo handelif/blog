@@ -4,47 +4,35 @@
     position: absolute;
     top: -999px;
 }
-
 /* helpers/align.css */
-
 .align {
     justify-content: center;
     align-items: center;
     display: flex;
 }
-
 /* layout/base.css */
-
 :root {
     --body-background-color: #ffffff;
 }
-
 html {
     height: 100%;
 }
-
 body {
     background-color: var(--body-background-color);
     margin: 0;
     min-height: 100%;
 }
-
 /* modules/anchor.css */
-
 a {
     outline: 0;
 }
-
 /* modules/icon.css */
-
 :root {
     --icon-fill-color: #f1f1f1;
 }
-
 .icons {
     display: none;
 }
-
 .icon {
     display: inline-block;
     fill: var(--icon-fill-color);
@@ -53,53 +41,45 @@ a {
     vertical-align: middle;
     width: 1em;
 }
-
 .icon--2x {
     font-size: 2rem;
 }
 
 /* modules/image.css */
-
 svg {
     max-width: 100%;
 }
-
 /* modules/navigation.css */
-
 :root {
     --navigation-background-color: #f0f6ff;
     --navigation-border-radius: 0.25rem;
-
-
     --navigation-anchor-text-decoration: none;
 }
-
 .navigation {
     background-color: #000000;
-
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: center;
 }
-
+.fa {
+    content: "\f09a";
+    color: white;
+}
 .navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 .navigation a {
     display: block;
-    padding: 1.5rem;
+    padding: 0.5rem;
     position: relative;
     text-decoration: none;
 }
-
 .navigation a:focus::after,
 .navigation a:hover::after {
     opacity: 1;
 }
-
 .navigation a::after {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0);
     content: '';
@@ -111,29 +91,49 @@ svg {
     transition: opacity 0.3s;
     width: 100%;
 }
-
 .navigation--inline ul {
     display: flex;
 }
-.header-title{
-    font-family: 'Yanone Kaffeesatz',  sans-serif;
+.header-title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #000000;
     font-weight: 700;
     font-size: 54px;
 }
-.container {
-    position: relative;
-}
-
-.bottomright {
-    position: absolute;
-    bottom: 8px;
-    right: 8px;
-    font-size: 18px;
+mark {
+    background-color: black;
     color: white;
 }
-
+.bottomright {
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+    font-size: 20px;
+    color: white;
+}
 img {
     width: 100%;
     height: auto;
+}
+.center
+{
+    position: absolute;
+    right: 35px;
+    width: 500px;
+    background-color: #ffffff;
+}
+b {
+    position: absolute;
+    top: 219px;
+    left: 23px;
+    color:white;
+}
+.resim {
+    background:transparent;
+    padding:8px;
+    border:1px solid #999999;
+    position: absolute;
+    left: 35px;
+    width: 500px;
+    background-color: #ffffff;
 }
