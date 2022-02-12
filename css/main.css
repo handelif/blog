@@ -18,9 +18,10 @@ html {
     height: 100%;
 }
 body {
-    background-color: var(--body-background-color);
     margin: 0;
     min-height: 100%;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
 }
 /* modules/anchor.css */
 a {
@@ -99,6 +100,11 @@ svg {
     color: #000000;
     font-weight: 700;
     font-size: 54px;
+    margin-top: 76px;
+    height: 14px;
+}
+.header-title1 {
+    padding-top: 30px;
 }
 mark {
     background-color: black;
@@ -136,4 +142,120 @@ b {
     left: 35px;
     width: 500px;
     background-color: #ffffff;
+    padding-right: 125px;
+    padding-top: 121px;
+    padding-left: 113px;
+    padding-bottom: 200px;
+
+}
+.ust-kisim{
+    text-align:center; margin-bottom: 20px;
+}
+.top-banner{
+    width: 100%;
+    position: relative;
+}
+.top-banner .banner-text{
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+}
+.top-banner .banner-text h3, .top-banner .banner-text h4{
+    color: #fff;
+    font-family: Arial;
+    font-size: 42px;
+}
+.top-banner .banner-text button{
+    padding: 15px 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 0 none;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.5);
+}
+.content{
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.content .left{
+    width: calc((2 * (100% - 40px)) / 3);
+    float: left;
+    margin-right: 40px;
+}
+.content .right{
+    width: calc((100% - 40px) / 3);
+    float: right;
+    padding-top: 9px;
+}
+
+.content .left .blog-content {
+    
+}
+.content .left .blog-content .blog-item{
+    background-color: #fff;
+    padding: 25px;
+    margin: 10px;
+    float: left;
+}
+
+.content .left .blog-content .blog-item .post-content{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 25px;
+}
+
+.content .left .blog-item .title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.content .left .blog-item .title h4 {
+    font-size: 21px;
+    margin: 10px 0;
+}
+.content .left .blog-item .title h5 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.content .left .blog-item .title h5 span{
+    color: #888;
+}
+
+.content .left .blog-item .comments{
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #CCC;
+}
+
+
+.content .left .blog-item .comments .avatar{
+    width: 90px;
+    margin-right: 40px;
+    float: left;
+}
+
+.content .left .blog-item .comments .name, .content .left .blog-item .comments .date{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    float: left;
+}
+
+.content .left .blog-item .comments .date{
+    color: #888;
+    margin-left: 15px;
+    font-size: 15px;
+
+}
+
+.content .left .blog-item .comments .details{
+    width: calc( 100% - 90px - 40px);
+    float: left;
+
+}
+
+.content .left .blog-item .comments .comment-text{
+    width: 100%;
+    float: left;
 }
