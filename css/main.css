@@ -58,13 +58,15 @@ svg {
 }
 .navigation {
     background-color: #000000;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.3);
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .fa {
     content: "\f09a";
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .navigation ul {
     list-style: none;
@@ -73,7 +75,7 @@ svg {
 }
 .navigation a {
     display: block;
-    padding: 0.5rem;
+    padding: 1rem;
     position: relative;
     text-decoration: none;
 }
@@ -95,6 +97,9 @@ svg {
 .navigation--inline ul {
     display: flex;
 }
+header{
+
+}
 .header-title {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #000000;
@@ -102,9 +107,12 @@ svg {
     font-size: 54px;
     margin-top: 76px;
     height: 14px;
+    padding-bottom: 30px;
 }
-.header-title1 {
-    padding-top: 30px;
+.element.style{
+    padding-bottom: 35px;
+    padding-top: 40px;
+    font-size: 14px;
 }
 mark {
     background-color: black;
