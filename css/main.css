@@ -253,3 +253,23 @@ b {
     width: 100%;
     float: left;
 }
+.content .right .post-content{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.content .right .blog-content .blog-item{
+    background-color: #fff;
+    padding: 25px;
+    margin: 10px;
+    float: left;
+}
+.content .right .blog-item .comments .avatar{
+    width: 10px;
+    margin-right: 10px;
+    float: left;
+}
