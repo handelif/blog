@@ -75,7 +75,7 @@ svg {
 }
 .navigation a {
     display: block;
-    padding: 1rem;
+    padding: 0.8rem;
     position: relative;
     text-decoration: none;
 }
