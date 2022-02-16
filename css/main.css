@@ -209,3 +209,9 @@ img {
     height: 50px;
     border-radius: 50%;
 }
+.content .right .blog-content {
+
+}
+.content .right .blog-content .blog-item {
+    background-color: #fff;
+}
