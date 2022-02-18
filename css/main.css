@@ -118,7 +118,7 @@ img {
 .content .right{
     width: calc((100% - 40px) / 3);
     float: right;
-    padding-top: 9px;
+    margin-right: 0px;
 }
 
 .content .left .blog-content {
@@ -221,4 +221,7 @@ img {
     background-color: #fff;
     padding: 25px;
     margin: 10px;
+}
+.comments .right .popular-posts{
+
 }
