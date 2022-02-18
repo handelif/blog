@@ -198,6 +198,11 @@ img {
     padding-left: 8px;
     padding-right: 8px;
 }
+.content .right .blog-item .comments{
+    width: 100%;
+    padding-top: 20px;
+    border-top: 1px solid #CCC;
+}
 .content .right .blog-item .comments .avatar{
     width: 10px;
     margin-right: 10px;
@@ -214,4 +219,6 @@ img {
 }
 .content .right .blog-content .blog-item {
     background-color: #fff;
+    padding: 25px;
+    margin: 10px;
 }
