@@ -211,7 +211,6 @@ img {
 .avatar {
     vertical-align: middle;
     width: 50px;
-    height: 50px;
     border-radius: 50%;
 }
 .content .right .blog-content {
@@ -225,6 +224,7 @@ img {
 .comments .right .popular-posts{
 
 }
-.mark .tags{
-    background-color: #fff;
+fon{
+    background-color: lightgray;
+    color: black;
 }
