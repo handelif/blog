@@ -30,7 +30,9 @@ body {
     position: relative;
     text-decoration: none;
 }
-.navigation a:focus::after,
+.navigation a:focus::after{
+
+}
 .navigation a:hover::after {
     opacity: 1;
 }
@@ -120,7 +122,6 @@ img {
     float: right;
     margin-right: 0px;
 }
-
 .content .left .blog-content {
     
 }
@@ -130,13 +131,11 @@ img {
     margin: 10px;
     float: left;
 }
-
 .content .left .blog-content .blog-item .post-content{
     padding-top: 25px;
     padding-bottom: 25px;
     line-height: 25px;
 }
-
 .content .left .blog-item .title {
     text-align: center;
     margin-bottom: 30px;
@@ -152,34 +151,28 @@ img {
 .content .left .blog-item .title h5 span{
     color: #888;
 }
-
 .content .left .blog-item .comments{
     width: 100%;
     padding-top: 20px;
     border-top: 1px solid #CCC;
 }
-
-
 .content .left .blog-item .comments .avatar{
     width: 90px;
     margin-right: 40px;
     float: left;
 }
-
 .content .left .blog-item .comments .name, .content .left .blog-item .comments .date{
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
     float: left;
 }
-
 .content .left .blog-item .comments .date{
     color: #888;
     margin-left: 15px;
     font-size: 15px;
 
 }
-
 .content .left .blog-item .comments .details{
     width: calc( 100% - 90px - 40px);
     float: left;
@@ -202,6 +195,7 @@ img {
     width: 100%;
     padding-top: 20px;
     border-top: 1px solid #CCC;
+    margin-top: 35px;
 }
 .content .right .blog-item .comments .avatar{
     width: 10px;
@@ -227,4 +221,47 @@ img {
 fon{
     background-color: lightgray;
     color: black;
+}
+.popular-posts-list{
+    background-color: white;
+    width: 100%;
+}
+.popular-posts-list .single-popular-post{
+    border-bottom: 1px solid #ccc;
+}
+.popular-posts-list .single-popular-post img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.popular-posts-list .single-popular-post .text-group{
+
+}
+.popular-posts h5.widget-title{
+    margin-bottom: 0;
+    padding: 10px;
+}
+.baslık{
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    height: 32px;
+}
+.advertise{
+    background-color: white;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 10px;
+    padding-left: 10px;"
+}
+.advertise-1{
+    background-color: lightgrey;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
