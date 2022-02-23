@@ -191,11 +191,10 @@ img {
     padding-left: 8px;
     padding-right: 8px;
 }
-.content .right .blog-item .comments{
+.content .right .comments{
     width: 100%;
-    padding-top: 20px;
     border-top: 1px solid #CCC;
-    margin-top: 35px;
+    padding-top: 5px;
 }
 .content .right .blog-item .comments .avatar{
     width: 10px;
@@ -265,3 +264,4 @@ fon{
     padding-left: 8px;
     padding-right: 8px;
 }
+
