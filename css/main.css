@@ -282,3 +282,10 @@ fon{
     color: white;
     float: right;
 }
+.kutu{
+    width: 20px;
+    height:20px;
+    border: 5px;
+    float: right;
+    background-color:white;
+}
