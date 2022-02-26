@@ -1,42 +1,49 @@
 html {
     height: 100%;
 }
+
 body {
     margin: 0;
     min-height: 100%;
     font-family: sans-serif;
     background-color: #f2f2f2;
 }
+
 .navigation {
     background-color: #000000;
     box-shadow: 0 0rem 1rem rgba(0, 0, 0, 0.3);
     display: flex;
     justify-content: flex-start;
 }
+
 .fa {
     content: "\f09a";
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 5px;
 }
+
 .navigation ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
+
 .navigation a {
     display: block;
     padding: 0.8rem;
     position: relative;
     text-decoration: none;
 }
-.navigation a:focus::after{
+
+.navigation a:focus::after {
 
 }
+
 .navigation a:hover::after {
     opacity: 1;
 }
+
 .navigation a::after {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0);
     content: '';
@@ -48,29 +55,35 @@ body {
     transition: opacity 0.3s;
     width: 100%;
 }
+
 .navigation--inline ul {
     display: flex;
 }
-header{
 
-}
-.header-title {
+.header {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #000000;
+}
+
+.header-title {
     font-weight: 700;
     font-size: 60px;
     margin-top: 76px;
 
 }
-.element.style{
+
+.element.style {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     padding-bottom: 35px;
     padding-top: 40px;
     font-size: 8px;
 }
+
 mark {
     background-color: black;
     color: white;
 }
+
 .bottomright {
     position: absolute;
     bottom: 50px;
@@ -78,115 +91,162 @@ mark {
     font-size: 20px;
     color: white;
 }
+
 img {
     width: 100%;
     height: auto;
 }
-.ust-kisim{
-    text-align:center;
+
+.ust-kisim {
+    text-align: center;
     padding-bottom: 1px;
 }
-.top-banner{
+.ust-kisim .social-media a{
+    color: #fff;
+    transition: all .2s ease;
+}
+.ust-kisim .social-media a:hover{
+    color: #ddd;
+}
+
+.top-banner {
     width: 100%;
     position: relative;
     float: left;
 }
-.top-banner .banner-text{
+
+.top-banner .banner-text {
     position: absolute;
-    bottom: 100px;
+    bottom: 300px;
     left: 30px;
 }
-.top-banner .banner-text h3, .top-banner .banner-text h4{
+
+.top-banner .banner-text h3, .top-banner .banner-text h4 {
     color: #fff;
     font-family: 'Oswald', sans-serif;
-    font-size: 42px;
+    font-size: 57px;
 }
-.top-banner .banner-text button{
+
+.top-banner .banner-text button {
     padding: 15px 25px;
     font-family: sans-serif;
     font-weight: 700;
     border-radius: 3px;
     border: 0 none;
     font-size: 16px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
-.content{
+
+.content {
     width: calc(100% - 100px);
     margin: 0 50px;
     margin-top: 25px;
     float: left;
 }
-.content .left{
+
+.content .left {
     width: calc((2 * (100% - 40px)) / 3);
     float: left;
     margin-right: 40px;
 }
-.content .right{
+
+.content .right {
     width: calc((100% - 40px) / 3);
     float: right;
     margin-right: 0px;
 }
+
 .content .left .blog-content {
-    
+
 }
-.content .left .blog-content .blog-item{
+
+.content .left .blog-content .blog-item {
     background-color: #fff;
     padding: 25px;
     margin: 10px;
     float: left;
 }
-.content .left .blog-content .blog-item .post-content{
+
+.content .left .blog-content .blog-item .post-content {
     padding-top: 25px;
     padding-bottom: 25px;
     line-height: 25px;
 }
+
+.content .left .blog-content .blog-item .like-button {
+    border: 1px solid #9e9e9e;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.content .left .blog-content .blog-item .like-button i {
+    color: black;
+}
+
+.content .left .blog-content .blog-item .reply-button {
+    border: 0;
+    padding: 8px 10px;
+}
+
 .content .left .blog-item .title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     text-align: center;
     margin-bottom: 30px;
 }
+
 .content .left .blog-item .title h4 {
-    font-size: 21px;
-    margin: 10px 0;
+    font-size: 30px;
+    margin: 10px;
 }
+
 .content .left .blog-item .title h5 {
     font-size: 18px;
     margin: 10px 0;
 }
-.content .left .blog-item .title h5 span{
+
+.content .left .blog-item .title h5 span {
     color: #888;
 }
-.content .left .blog-item .comments{
+
+.content .left .blog-item .comments {
     width: 100%;
     padding-top: 20px;
     border-top: 1px solid #CCC;
+    border-top-width: 0px;
 }
-.content .left .blog-item .comments .avatar{
+
+.content .left .blog-item .comments .avatar {
     width: 90px;
     margin-right: 40px;
     float: left;
 }
-.content .left .blog-item .comments .name, .content .left .blog-item .comments .date{
+
+.content .left .blog-item .comments .name, .content .left .blog-item .comments .date {
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
     float: left;
 }
-.content .left .blog-item .comments .date{
+
+.content .left .blog-item .comments .date {
     color: #888;
     margin-left: 5px;
     font-size: 15px;
 
 }
-.content .left .blog-item .comments .details{
-    width: calc( 100% - 90px - 40px);
+
+.content .left .blog-item .comments .details {
+    width: calc(100% - 90px - 40px);
     float: left;
 
 }
-.content .left .blog-item .comments .comment-text{
+
+.content .left .blog-item .comments .comment-text {
     width: 100%;
     float: left;
 }
-.content .right .post-content{
+
+.content .right .post-content {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
@@ -195,87 +255,123 @@ img {
     padding-left: 8px;
     padding-right: 8px;
 }
-.content .right .comments{
+
+.content .right .comments {
     width: 100%;
     border-top: 1px solid #CCC;
     padding-top: 5px;
 }
-.content .right .blog-item .comments .avatar{
+
+.content .right .blog-item .comments .avatar {
     width: 10px;
     margin-right: 10px;
     float: left;
 }
+
 .avatar {
     vertical-align: middle;
     width: 50px;
     border-radius: 50%;
 }
+
 .content .right .blog-content {
 
 }
+
 .content .right .blog-content .blog-item {
     background-color: #fff;
     padding: 25px;
     margin: 10px;
 }
-.comments .right .popular-posts{
+
+.comments .right .popular-posts {
 
 }
+
 fon {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    margin-left: 5px;
     background-color: lightgray;
     color: black;
 }
-.popular-posts-list{
+
+.popular-posts-list {
     background-color: white;
     width: 100%;
 }
-.popular-posts-list .single-popular-post{
-    border-bottom: 1px solid #ccc;
-}
-.popular-posts-list .single-popular-post img{
+
+.popular-posts-list .single-popular-post img {
     float: left;
     width: 50px;
     height: 50px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 7px;
+    margin-left: 7px;
 }
-.popular-posts-list .single-popular-post .text-group{
+
+.popular-posts-list .single-popular-post .text-group {
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding-top: 6px;
+}
+
+.popular-posts-list .single-popular-post .text-group p {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.popular-posts-list .single-popular-post .text-group h6 {
+    margin-top: 7.5px;
+    margin-bottom: 0;
+    font-size: 15px;
 
 }
-.popular-posts h5.widget-title{
-    margin-bottom: 0;
-    padding: 10px;
+
+.popular-posts h5.widget-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
-.baslık{
+
+.baslik {
     background-color: black;
     color: white;
-    margin-top: 35px;
-    height: 32px;
+    margin-bottom: 0;
+    padding: 15px;
 }
-.advertise{
+
+.baslik h5 {
+    margin-bottom: 0;
+}
+
+.advertise {
     background-color: white;
     padding-top: 36px;
     padding-bottom: 36px;
     padding-right: 10px;
-    padding-left: 10px;"
+    padding-left: 10px;
+"
 }
-.advertise-1{
+
+.advertise-1 {
     background-color: lightgrey;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 8px;
     padding-right: 8px;
 }
-.alt-kisim{
+
+.alt-kisim {
     width: 100%;
     height: 200px;
     background-color: dimgray;
     color: white;
     float: left;
 }
-.alt-kisim .button{
+
+.alt-kisim .button {
     background-color: black;
     color: white;
     margin-left: 58px;
@@ -284,20 +380,53 @@ fon {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
 .button5 {
-    background-color:black;
+    background-color: black;
     color: white;
     float: right;
 }
-.kutu{
-    width: 20px;
-    height:20px;
-    border: 5px;
-    float: right;
-    background-color:white;
-    margin-left: 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 5px;
 
+.kutu {
+    width: 20px;
+    height: 20px;
+    float: right;
+    background-color: white;
+    margin-left: 10px;
+    color: #000;
+    line-height: 20px;
+}
+
+.single-popular-post-item {
+    width: 100%;
+    float: left;
+}
+
+.right .widget-box {
+    margin-bottom: 35px;
+    float: left;
+    width: 100%;
+}
+
+.right .social-media a {
+    text-decoration: none;
+}
+
+.subscribe-box .content2 button {
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px 0;
+    border: 0;
+}
+
+.subscribe-box .content2 {
+    background-color: white;
+    padding: 10px;
+}
+.subscribe-box input {
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    font-size: 14px;
 }
